@@ -20,5 +20,3 @@ To test and develop this lesson locally:
 
 bundle install
 bundle exec jekyll serve
-
-
