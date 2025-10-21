@@ -6,13 +6,13 @@ exercises: 0
 
 ::::::::::::::::::::::::::::::::::::::: objectives
 
-- Publish Jupyter notebooks as HTML on the web with GitHub Pages
+- Pubblica i notebook Jupyter come HTML sul web con GitHub Pages
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
 :::::::::::::::::::::::::::::::::::::::: questions
 
-- How do I publish web pages through GitLab and Jupyter books?
+- Come faccio a pubblicare pagine web tramite GitLab e Jupyter Books?
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -77,7 +77,6 @@ pages:
       - public
 ```
 
-> 
 Questo pezzo di codice:
 
 1. Installa jupyter-book (o controlla che sia correttamente installato in remoto).
@@ -114,7 +113,7 @@ su [jupyterbook.org](https://jupyterbook.org/intro.html) e trovate un modo per:
 
 :::::::::::::::::::::::::::::::::::::::: keypoints
 
-- Through Jupyter books, you'll be able to integrate interactive components and code in your web pages
+- Attraverso i libri Jupyter, sarai in grado di integrare componenti interattivi e codice nelle tue pagine web
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
