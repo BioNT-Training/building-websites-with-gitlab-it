@@ -6,15 +6,15 @@ exercises: 0
 
 ::::::::::::::::::::::::::::::::::::::: objectives
 
-- create simple pages of formatted text
+- creare semplici pagine di testo formattato
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
 :::::::::::::::::::::::::::::::::::::::: questions
 
-- How can I write content for my webpages?
-- How do I link to other pages?
-
+- Come posso scrivere contenuti per le mie pagine web?
+- Come posso creare link ad altre pagine?
+ 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ## Markdown
@@ -124,7 +124,6 @@ are caused by two trailing spaces at the end of a line.
 - Library Carpentry
 ```
 
-> 
 Si può quindi fare di nuovo clic sulla scheda di anteprima per vedere come viene resa la
 formattazione.
 
@@ -143,7 +142,7 @@ l'HTML generato continuerà nella stessa riga **senza** introdurre un `<br/>`. Q
 si chiama **interruzione di riga morbida**.
 
 In alcuni casi è possibile che le **interruzioni di riga morbide** introducano un
-`<br/>`. Questo può accadere quando si usano diversi [sapori di
+`<br/>`. Questo può accadere quando si usano diversi [tipi di
 markdown](#markdown-flavours). {: .language-markdown }
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
@@ -221,7 +220,7 @@ cosa tratta il progetto e come contribuire.
 
 :::::::::::::::::::::::::::::::::::::::::  callout
 
-### Sapori di Markdown
+### Tipi di Markdown
 
 La descrizione iniziale di Markdown era informale e conteneva alcune ambiguità, per
 cui nel corso degli anni sono apparse [diverse implementazioni di Markdown e
@@ -246,7 +245,7 @@ basata su [CodiMD](https://github.com/hackmdio/codimd).
 
 ::::::::::::::::::::::::::::::::::::::  challenge
 
-### Esercizio: Aggiungere i dettagli del proprio repository a CodiMD
+### Esercizio: Aggiungere i dettagli del proprio progetto a CodiMD
 
 Usare la sintassi Markdown per aggiungere un link nel documento di appunti
 collaborativi che si sta usando per seguire questa lezione. Il testo del link deve
