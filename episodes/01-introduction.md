@@ -411,9 +411,9 @@ modelli che userete per generarlo sono *software*. Una parola di saggezza.
 
 :::::::::::::::::::::::::::::::::::::::: keypoints
 
-- A static site generator combines page-specific content with layout elements and styling information to construct individual webpages.
-- GitHub/GitLab Pages is a good choice for people who are already familiar with Git and GitHub/GitLab.
-- This approach can be used to create a relatively small website/blog on a limited budget.
+- Un generatore di siti statici combina contenuti specifici per pagina con elementi di layout e informazioni di stile per creare singole pagine web.
+- GitHub/GitLab Pages è una buona scelta per chi ha già familiarità con Git e GitHub/GitLab.
+- Questo approccio può essere utilizzato per creare un sito web/blog relativamente piccolo con un budget limitato.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
