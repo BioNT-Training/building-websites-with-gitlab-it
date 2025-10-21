@@ -396,7 +396,7 @@
         
 <section id="aio-01-introduction"><p>Content from <a href="01-introduction.html">Introduzione</a></p>
 <hr>
-<p>Ultimo aggiornamento il 2025-03-02 |
+<p>Ultimo aggiornamento il 2025-10-21 |
 
         <a href="https://github.com/BioNT-Training/building-websites-with-gitlab-it-old/edit/main/episodes/01-introduction.md" class="external-link">Modifica questa pagina <i aria-hidden="true" data-feather="edit"></i></a></p>
 <p>Tempo stimato: <i aria-hidden="true" data-feather="clock"></i> 0 minuti</p>
@@ -411,8 +411,9 @@
 <div class="inner">
 <h3 class="card-title">Domande</h3>
 <ul>
-<li>What is static web content?</li>
-<li>Why should I use GitHub or GitLab Pages to create my website?</li>
+<li>Cosa sono i contenuti web statici?</li>
+<li>Perché dovrei usare GitHub o GitLab Pages per creare il mio sito
+web?</li>
 </ul>
 </div>
 </div>
@@ -422,8 +423,8 @@
 <div class="inner bordered">
 <h3 class="card-title">Obiettivi</h3>
 <ul>
-<li>Explain what a static site generator does.</li>
-<li>Choose the appropriate tool for your website/project.</li>
+<li>Spiega a cosa serve un generatore di siti statici.</li>
+<li>Scegli lo strumento più adatto al tuo sito web/progetto.</li>
 </ul>
 </div>
 </div>
@@ -441,7 +442,7 @@ stati problemi in questa fase (ad esempio, la richiesta di una pagina
 che non esiste o l’impossibilità di raggiungere il server), il nostro
 browser riceve e interpreta queste informazioni per renderizzare e
 visualizzare la pagina web sul nostro schermo.</p>
-<p>Uno sviluppatore web probabilmente rimarrebbe inorridito nel leggere
+<p>Uno sviluppatore web probabilmente rimarrebbe sorpreso nel leggere
 una così grossolana semplificazione, e questo è solo uno dei motivi per
 cui gli sviluppatori web non sono il target di questo tutorial.</p>
 <p>La pagina visualizzata dal browser web è il risultato della
@@ -482,11 +483,9 @@ piuttosto rapidamente.</p>
 <span id="cb1-8"><a href="#cb1-8" tabindex="-1"></a>  <span class="dt">&lt;/</span><span class="kw">body</span><span class="dt">&gt;</span></span>
 <span id="cb1-9"><a href="#cb1-9" tabindex="-1"></a><span class="dt">&lt;/</span><span class="kw">html</span><span class="dt">&gt;</span></span></code></pre>
 </div>
-<blockquote>
 <p>Come potete immaginare, scrivere a mano lunghi documenti HTML è
 piuttosto doloroso. Notate che non abbiamo specificato nulla su come e
 dove il testo debba essere visualizzato.</p>
-</blockquote>
 <p>Per ottenere questo risultato è necessario includere tag stilizzati o
 istruzioni CSS (Cascading Style Sheets). Se non si forniscono istruzioni
 CSS (all’interno del documento HTML o in un file separato), un browser
@@ -817,8 +816,8 @@ creeremo.</p>
 <div id="accedere-al-proprio-account-gitlab" class="callout-inner">
 <h3 class="callout-title">Accedere al proprio account GitLab</h3>
 <div class="callout-content">
-<p>Prima di poter creare un repo, è necessario effettuare il login nel
-<a href="https://git.embl.de/" class="external-link">EMBL GitLab</a></p>
+<p>Prima di poter creare un progetto, è necessario effettuare il login
+in <a href="https://gitlab.com/users/sign_in/" class="external-link">GitLab</a></p>
 </div>
 </div>
 </div>
@@ -827,7 +826,7 @@ creeremo.</p>
 scegliere “nuovo progetto”</p>
 <figure><img src="../fig/gitlab-new-navbar.png" class="image-with-shadow figure mx-auto d-block" alt="Plus button" width="600"></figure><p><strong>o</strong>, se siete nella pagina dei progetti, fate clic sul
 pulsante “Nuovo progetto”</p>
-<figure><img src="../fig/gitlab-nuovo-progetto.png" class="image-with-shadow figure mx-auto d-block" alt="Pulsante nuovo progetto" width="600"></figure><p>Verrete reindirizzati a una pagina che fornisce tre opzioni:</p>
+<p>Verrete reindirizzati a una pagina che fornisce tre opzioni:</p>
 <ol style="list-style-type: decimal">
 <li>Creare un progetto vuoto</li>
 <li>Creare da un modello</li>
@@ -899,9 +898,7 @@ procedura:</p>
 <span id="cb5-5"><a href="#cb5-5" tabindex="-1"></a><span class="fu">git</span> add README.md</span>
 <span id="cb5-6"><a href="#cb5-6" tabindex="-1"></a><span class="fu">git</span> commit <span class="at">-m</span> <span class="st">"Initial commit"</span></span></code></pre>
 </div>
-<blockquote>
 <p>Su un server remoto. Il ramo predefinito è <code>main</code>.</p>
-</blockquote>
 <figure><img src="../fig/gitlab_group_website_project.png" class="image-with-shadow figure mx-auto d-block" alt="repository Github per il sito web delgruppo" width="800"></figure><p>Prima di passare al capitolo successivo, date un’occhiata ai pulsanti
 in alto, come <code>Add LICENSE</code>, <code>Add CHANGELOG</code> ecc.
 che vi suggeriscono i possibili passi successivi. Per citarne uno, la
