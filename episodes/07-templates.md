@@ -6,54 +6,15 @@ exercises: 0
 
 ::::::::::::::::::::::::::::::::::::::: objectives
 
-- Find and fork pre-existing templates to determine the technologies behind a project and the styles of the deriving website
+- Trovare e utilizzare modelli preesistenti per determinare le tecnologie alla base di un progetto e gli stili del sito web derivante
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
 :::::::::::::::::::::::::::::::::::::::: questions
 
-- Where can I find pre-built projects/themes for my site?
+- Dove posso trovare progetti/temi predefiniti per il mio sito?
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
-
-## Modelli di Bio-IT
-
-I modelli che abbiamo sviluppato insieme sono disponibili nella nostra piattaforma
-GitLab:
-
-- [Modello HTML semplice](https://git.embl.de/grp-bio-it/template_pages_html)
-- [template Jekyll](https://git.embl.de/grp-bio-it/template-pages-jekyll)
-- [template Sphinx](https://git.embl.de/grp-bio-it/template-pages-sphinx)
-- [Libro Jupyter](https://git.embl.de/grp-bio-it/template-jupyter-book)
-
-Potrebbero essere leggermente arricchiti rispetto a quanto abbiamo visto in questa
-lezione, per esempio il modello HTML semplice presenta anche un file `.css`, ma sono
-tenuti al minimo di proposito. Se volete usarli come base per un vostro progetto,
-dovreste **fornirli**. Se lo si fa per sviluppare un proprio progetto e non per
-contribuire al template stesso, si deve poi **rimuovere la relazione di fork**.
-Esaminiamo insieme il processo.
-
-![](fig/template-pages-fork.png){alt='fork di un repository tramite il pulsante Fork'}
-
-Fare il fork di un progetto facendo clic sul pulsante "Fork" a destra del titolo del
-progetto. Si aprirà un menu (mostrato di seguito) molto simile a quello che appare
-quando si apre un nuovo progetto. Si può decidere di mantenere il progetto privato e di
-modificarne il titolo e la descrizione. È anche possibile inserirlo nel gruppo/spazio
-dei nomi pertinente.
-
-![](fig/fork-project-menu.png){alt='il menu del progetto fork'}
-
-Una volta terminato, rimuovere la relazione di fork. È possibile modificare le
-impostazioni del progetto nel menu a sinistra della pagina del progetto, seguendo:
-`Settings > General > Advanced` e poi scorrere fino alla scheda "Rimuovi relazione di
-fork".
-
-![](fig/advanced-settings.png){alt='rimuovere la relazione fork'}
-
-Una volta fatto questo, si può clonare il repository in locale e iniziare a modificare
-il template. Se avete bisogno di un riassunto su clonazione, biforcazione, push e pull
-in Git, date un'occhiata a [questa lezione](https://swcarpentry.github.io/git-novice/)
-di The Carpentries.
 
 ## Altri modelli
 
@@ -82,13 +43,10 @@ che quelli nuovi che potrebbero adattarsi ai vostri casi d'uso. Infine, consulta
 prossimo capitolo (bonus) per sapere come gestire gli errori nell'esecuzione della
 pipeline, per poter risolvere eventuali errori di CI/CD!
 
-
-
 :::::::::::::::::::::::::::::::::::::::: keypoints
 
-- You can find many pre-existing templates for sites on the Internet
-- You can find the presented themes for sites in our local GitLab
-- You can avoid duplicated effort by basing new layouts on previous ones
+- Puoi trovare molti template preesistenti per siti su Internet
+- Puoi evitare lavoro superfluo basando i nuovi layout su quelli precedenti
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
