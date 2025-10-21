@@ -1662,7 +1662,7 @@ configurazione chiamato <code>.gitlab-ci.yml</code>
 </div>
 </section></section><section id="aio-04-gitlab-pages-jekyll"><p>Content from <a href="04-gitlab-pages-jekyll.html">Pagine GitLab con Jekyll</a></p>
 <hr>
-<p>Ultimo aggiornamento il 2025-03-02 |
+<p>Ultimo aggiornamento il 2025-10-21 |
 
         <a href="https://github.com/BioNT-Training/building-websites-with-gitlab-it-old/edit/main/episodes/04-gitlab-pages-jekyll.md" class="external-link">Modifica questa pagina <i aria-hidden="true" data-feather="edit"></i></a></p>
 <p>Tempo stimato: <i aria-hidden="true" data-feather="clock"></i> 0 minuti</p>
@@ -1677,7 +1677,7 @@ configurazione chiamato <code>.gitlab-ci.yml</code>
 <div class="inner">
 <h3 class="card-title">Domande</h3>
 <ul>
-<li>How do I publish web pages through GitLab and Jekyll?</li>
+<li>Come faccio a pubblicare pagine web tramite GitLab e Jekyll?</li>
 </ul>
 </div>
 </div>
@@ -1687,7 +1687,7 @@ configurazione chiamato <code>.gitlab-ci.yml</code>
 <div class="inner bordered">
 <h3 class="card-title">Obiettivi</h3>
 <ul>
-<li>Publish Markdown files as HTML on the web with GitHub Pages</li>
+<li>Pubblica file Markdown come HTML sul web con GitHub Pages</li>
 </ul>
 </div>
 </div>
@@ -1695,10 +1695,11 @@ configurazione chiamato <code>.gitlab-ci.yml</code>
 </div>
 </div>
 <p><a href="https://jekyllrb.com/" class="external-link">Jekyll</a> è un potente generatore di
-siti statici che può stare dietro a GitLab Pages. Crea contenuti statici
-di siti web in HTML a partire da vari file presenti nel repository (file
-Markdown, fogli di stile CSS, modelli/layout di pagina, ecc.) Questo
-contenuto “compilato” viene poi servito come sito web.</p>
+siti statici che può aiutare nell’utilizzo di GitLab Pages. Crea
+contenuti statici di siti web in HTML a partire da vari file presenti
+nel repository (file Markdown, fogli di stile CSS, modelli/layout di
+pagina, ecc.) Questo contenuto “compilato” viene poi servito come sito
+web.</p>
 <p>Jekyll facilita la gestione del sito web perché dipende dai modelli.
 I modelli (o layout nella notazione di Jekyll) sono progetti che possono
 essere riutilizzati da più pagine. Per esempio, noi (i vostri
@@ -1735,35 +1736,29 @@ se si desidera farlo. Creare/modificare il contenuto del file
 <span id="cb1-11"><a href="#cb1-11" tabindex="-1"></a><span class="at">  </span><span class="fu">only</span><span class="kw">:</span></span>
 <span id="cb1-12"><a href="#cb1-12" tabindex="-1"></a><span class="at">    </span><span class="kw">-</span><span class="at"> main</span></span></code></pre>
 </div>
-<blockquote>
 <p>Questo codice richiede che lo script venga eseguito nell’ambiente
 dell’ultima versione di Ruby, installa la gemma Jekyll e costruisce il
 sito nel percorso pubblico (creando la cartella in remoto, non ci si
 deve preoccupare a questo punto). Il risultato riguarda solo il ramo
 principale.</p>
-</blockquote>
 <p>L’esecuzione di questa pipeline richiede anche un
 <code>Gemfile</code>. Crearlo nella cartella principale con il seguente
 contenuto:</p>
 <pre class="shell"><code>source "https://rubygems.org"
 
 gem "jekyll"</code></pre>
-<blockquote>
 <p>In breve, ma lo vedremo più in dettaglio, Jekyll cerca i file di
 testo che iniziano con un’intestazione formattata in questo modo:</p>
-</blockquote>
 <pre class="source"><code>---
 variable: value
 other_variable: other_value
 ---
 
 ...stuff in the page...</code></pre>
-<blockquote>
 <p>e inserisce i valori di queste variabili nella pagina quando la
 formatta. I tre trattini che iniziano l’intestazione <em>devono</em>
 essere i primi tre caratteri del file: anche un solo spazio prima di
 essi farà sì che Jekyll ignori il file.</p>
-</blockquote>
 <p>Il contenuto dell’intestazione deve essere formattato come YAML e può
 contenere booleani, numeri, stringhe di caratteri, elenchi e dizionari
 di coppie nome/valore. I valori dell’intestazione sono indicati nella
@@ -1826,7 +1821,6 @@ come:</li>
 <span id="cb8-2"><a href="#cb8-2" tabindex="-1"></a><span class="at">websites in GitLab Pages.</span></span>
 <span id="cb8-3"><a href="#cb8-3" tabindex="-1"></a><span class="fu">email</span><span class="kw">:</span><span class="at"> team@carpentries.org</span></span></code></pre>
 </div>
-<blockquote>
 <p>le impostazioni di configurazione globale di <code>_config.yml</code>
 sono rese disponibili come variabile <code>site.PARAMETER_NAME</code> in
 ogni pagina del sito. Quindi, il parametro globale <code>email</code>
@@ -1834,7 +1828,6 @@ che abbiamo definito sopra sarà accessibile come
 <code>site.email</code>. Si noti che si tratta di parametri globali,
 quindi diversi dai parametri locali specifici della pagina negli esempi
 precedenti.</p>
-</blockquote>
 <p>Per accedere al valore del parametro all’interno di una pagina, si
 utilizza la notazione di Liquid per l’output del contenuto, circondando
 una variabile tra parentesi graffe come
@@ -1873,9 +1866,7 @@ il seguente contenuto:</p>
 <span id="cb9-10"><a href="#cb9-10" tabindex="-1"></a></span>
 <span id="cb9-11"><a href="#cb9-11" tabindex="-1"></a>Have any questions about what we do? <span class="co">[</span><span class="ot">We'd love to hear from you!</span><span class="co">]({% raw %}mailto:{{ site.email }}{% endraw %})</span></span></code></pre>
 </div>
-<blockquote>
 <p>Il progetto deve includere i seguenti file:</p>
-</blockquote>
 <figure><img src="../fig/basic_files_jekyll.png" class="image-with-shadow figure mx-auto d-block" alt="Basic Jekyll" width="600"></figure><p>Impegnare e spingere le modifiche, quindi monitorare l’esecuzione
 della pipeline e controllare il risultato finale all’URL
 <code>https://&lt;your user name&gt;.embl-community.io/group-website</code>.</p>
@@ -2175,8 +2166,9 @@ Jekyll.</p>
 <div class="callout-inner">
 <div class="callout-content">
 <ul>
-<li>Through Jekyll, GitLab serves pages are generated from
-<code>.md</code> files</li>
+<li>Attraverso Jekyll, GitLab serve le pagine generate dai file
+<code>.md</code>
+</li>
 </ul>
 </div>
 </div>
