@@ -10,7 +10,7 @@ site: sandpaper::sandpaper_site
 Prima di seguire questa lezione, gli studenti dovrebbero idealmente essere in grado
 di:
 
-1. creare un progetto su [GitLab][gitlab] / [EMBL GitLab][embl-gitlab].
+1. creare un progetto su [GitLab][gitlab].
 2. clonare una copia locale di un progetto con Git, aggiungere e fare il commit dei
   file modificati e fare il push/pull delle modifiche tra i repository locali e
   remoti.
@@ -55,7 +55,7 @@ GitLab aggiunge sempre nuove funzionalità e nuovi elementi visivi al suo sito w
 riferimento o mostrare contenuti che non esistono più.
 
 Se durante la lezione si trovano **screenshot** che non corrispondono più a ciò che si
-vede nel browser, si prega di [aprire un
+vede nel browser, si prega di [segnalare un
 problema](https://git.embl.de/grp-bio-it-workshops/building-websites-with-gitlab/-/issues)
 descrivendo ciò che si vede e come differisce dal contenuto della lezione. Sentitevi
 liberi di aggiungere tutte le schermate necessarie per chiarire la discrepanza.
@@ -80,7 +80,11 @@ Dopo aver seguito questa lezione, gli studenti saranno in grado di:
 
 
 [gitlab]: https://gitlab.com/
-[embl-gitlab]: https://git.embl.de/
+[swc]: https://software-carpentry.org/
+[swc-shell]: https://swcarpentry.github.io/shell-novice/
+[swc-git] : https://swcarpentry.github.io/git-novice/ 
+
+
 
 
 
