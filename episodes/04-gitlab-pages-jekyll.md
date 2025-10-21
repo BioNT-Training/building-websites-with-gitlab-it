@@ -6,18 +6,18 @@ exercises: 0
 
 ::::::::::::::::::::::::::::::::::::::: objectives
 
-- Publish Markdown files as HTML on the web with GitHub Pages
+- Pubblica file Markdown come HTML sul web con GitHub Pages
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
 :::::::::::::::::::::::::::::::::::::::: questions
 
-- How do I publish web pages through GitLab and Jekyll?
+- Come faccio a pubblicare pagine web tramite GitLab e Jekyll?
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
-[Jekyll](https://jekyllrb.com/) è un potente generatore di siti statici che può stare
-dietro a GitLab Pages. Crea contenuti statici di siti web in HTML a partire da vari file
+[Jekyll](https://jekyllrb.com/) è un potente generatore di siti statici che può aiutare
+nell'utilizzo di GitLab Pages. Crea contenuti statici di siti web in HTML a partire da vari file
 presenti nel repository (file Markdown, fogli di stile CSS, modelli/layout di pagina,
 ecc.) Questo contenuto "compilato" viene poi servito come sito web.
 
@@ -57,7 +57,6 @@ pages:
     - main
 ```
 
-> 
 Questo codice richiede che lo script venga eseguito nell'ambiente dell'ultima versione
 di Ruby, installa la gemma Jekyll e costruisce il sito nel percorso pubblico (creando la
 cartella in remoto, non ci si deve preoccupare a questo punto). Il risultato riguarda
@@ -72,7 +71,6 @@ source "https://rubygems.org"
 gem "jekyll"
 ```
 
-> 
 In breve, ma lo vedremo più in dettaglio, Jekyll cerca i file di testo che iniziano con
 un'intestazione formattata in questo modo:
 
@@ -85,7 +83,6 @@ other_variable: other_value
 ...stuff in the page...
 ```
 
-> 
 e inserisce i valori di queste variabili nella pagina quando la formatta. I tre trattini
 che iniziano l'intestazione *devono* essere i primi tre caratteri del file: anche un
 solo spazio prima di essi farà sì che Jekyll ignori il file.
@@ -154,7 +151,6 @@ websites in GitLab Pages.
 email: team@carpentries.org
 ```
 
-> 
 le impostazioni di configurazione globale di `_config.yml` sono rese disponibili come
 variabile `site.PARAMETER_NAME` in ogni pagina del sito. Quindi, il parametro globale
 `email` che abbiamo definito sopra sarà accessibile come `site.email`. Si noti che si
@@ -192,7 +188,6 @@ Welcome to {% raw %}{{ page.title }}{% endraw %}
 Have any questions about what we do? [We'd love to hear from you!]({% raw %}mailto:{{ site.email }}{% endraw %})
 ```
 
-> 
 Il progetto deve includere i seguenti file:
 
 ![](fig/basic_files_jekyll.png){alt='Basic Jekyll' .image-with-shadow width="600px" }
@@ -445,7 +440,7 @@ elaborato di sito web basato su GitLab e Jekyll.
 
 :::::::::::::::::::::::::::::::::::::::: keypoints
 
-- Through Jekyll, GitLab serves pages are generated from `.md` files
+- Attraverso Jekyll, GitLab serve le pagine generate dai file `.md`
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
