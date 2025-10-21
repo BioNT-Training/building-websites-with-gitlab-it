@@ -261,10 +261,10 @@ essere il proprio nome utente GitLab e la destinazione il proprio repository.
 
 :::::::::::::::::::::::::::::::::::::::: keypoints
 
-- Markdown is an relatively easy way to write formatted text
-- Markdown and HTML tags can be used together in a single page
-- I recommend writing Markdown links 'reference-style'
-- The landing page for a website is conventionally named `index.md`
+- Markdown è un modo relativamente semplice per scrivere testo formattato
+- I tag Markdown e HTML possono essere utilizzati insieme in una singola pagina
+- Consiglio di indicare i link in Markdown in stile "reference-style"
+- La landing page di un sito web è convenzionalmente denominata `index.md`
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
