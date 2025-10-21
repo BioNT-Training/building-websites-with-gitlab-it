@@ -6,13 +6,13 @@ exercises: 0
 
 ::::::::::::::::::::::::::::::::::::::: objectives
 
-- publish HTML on the web with GitLab Pages
+- pubblicare HTML sul web con GitLab Pages
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
 :::::::::::::::::::::::::::::::::::::::: questions
 
-- How do I publish my pages via GitLab?
+- Come faccio a pubblicare le mie pagine tramite GitLab?
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -110,7 +110,6 @@ pages:
     - main
 ```
 
-> 
 Questo codice crea un lavoro chiamato "pages" che dice a GitLab di **dispiegare il
 contenuto del sito web** in `public`, **ogni volta che un commit viene spinto** e **solo
 nel ramo principale**. Non ha molto da fare se non guardare il contenuto in pubblico,
@@ -172,7 +171,6 @@ popolate il nuovo file `index.html` con questo contenuto:
 </html>
 ```
 
-> 
 Prima di proseguire con il capitolo, provate a immaginare quale sarà la visualizzazione
 finale della pagina web risultante. Potete disegnarla su un foglio di carta.
 
@@ -343,7 +341,7 @@ sceglierne una che si adatti ai vostri gusti per saperne di più.
 
 :::::::::::::::::::::::::::::::::::::::: keypoints
 
-- GitLab serves pages in your project according to a configuration file called `.gitlab-ci.yml`
+- GitLab serve le pagine nel tuo progetto in base a un file di configurazione chiamato `.gitlab-ci.yml`
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
