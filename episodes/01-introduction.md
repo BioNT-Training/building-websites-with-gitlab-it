@@ -6,15 +6,15 @@ exercises: 0
 
 ::::::::::::::::::::::::::::::::::::::: objectives
 
-- Explain what a static site generator does.
-- Choose the appropriate tool for your website/project.
+- Spiega a cosa serve un generatore di siti statici.
+- Scegli lo strumento più adatto al tuo sito web/progetto.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
 :::::::::::::::::::::::::::::::::::::::: questions
 
-- What is static web content?
-- Why should I use GitHub or GitLab Pages to create my website?
+- Cosa sono i contenuti web statici?
+- Perché dovrei usare GitHub o GitLab Pages per creare il mio sito web?
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -28,7 +28,7 @@ che non esiste o l'impossibilità di raggiungere il server), il nostro browser r
 interpreta queste informazioni per renderizzare e visualizzare la pagina web sul nostro
 schermo.
 
-Uno sviluppatore web probabilmente rimarrebbe inorridito nel leggere una così grossolana
+Uno sviluppatore web probabilmente rimarrebbe sorpreso nel leggere una così grossolana
 semplificazione, e questo è solo uno dei motivi per cui gli sviluppatori web non sono il
 target di questo tutorial.
 
@@ -40,8 +40,7 @@ al browser come il contenuto deve essere organizzato e formattato - ed eventuali
 server, ma non visualizzate dal browser, includono **metadati**, **cookies** e altri
 elementi non visibili nell'HTML - informazioni sul sito che potrebbero essere rilevanti
 per un computer ma che probabilmente non sono interessanti per un essere umano (ci sono
-[eccezioni](https://chrome.google.com/webstore/detail/dinosaur-comics-easter-eg/bojkkeeefjmeogpgnlomodfkkfkfhabj) a questo) - e script che il browser può eseguire per
-fare qualcosa in risposta a vari trigger.
+[eccezioni](https://chrome.google.com/webstore/detail/dinosaur-comics-easter-eg/bojkkeeefjmeogpgnlomodfkkfkfhabj) a questo) - e script che il browser può eseguire per fare qualcosa in risposta a vari trigger.
 
 ## Hello World in HTML
 
@@ -67,7 +66,6 @@ Il più semplice HTML valido `Hello world` è:
 </html>
 ```
 
-> 
 Come potete immaginare, scrivere a mano lunghi documenti HTML è piuttosto doloroso.
 Notate che non abbiamo specificato nulla su come e dove il testo debba essere
 visualizzato.
@@ -311,8 +309,7 @@ creeremo.
 
 ## Accedere al proprio account GitLab
 
-Prima di poter creare un repo, è necessario effettuare il login nel [EMBL
-GitLab](https://git.embl.de/)
+Prima di poter creare un progetto, è necessario effettuare il login in [GitLab](https://gitlab.com/users/sign_in/)
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -324,9 +321,6 @@ progetto"
 ![](fig/gitlab-new-navbar.png){alt='Plus button' .image-with-shadow width="600px" }
 
 **o**, se siete nella pagina dei progetti, fate clic sul pulsante "Nuovo progetto"
-
-![](fig/gitlab-nuovo-progetto.png){alt='Pulsante nuovo progetto' .image-with-shadow
-width="600px" }
 
 Verrete reindirizzati a una pagina che fornisce tre opzioni:
 
@@ -397,7 +391,6 @@ git add README.md
 git commit -m "Initial commit"
 ```
 
-> 
 Su un server remoto. Il ramo predefinito è `main`.
 
 ![](fig/gitlab_group_website_project.png){alt='repository Github per il sito web delgruppo' .image-with-shadow width="800px" }
